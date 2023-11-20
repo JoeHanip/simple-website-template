@@ -182,6 +182,25 @@ At our studio, we believe that yoga is for everyone. Whether you’re a beginner
                 
               </ul>
             </p>
+
+            <form method="post" action="https://newsletter-func-app.azurewebsites.net/api/NewsletterHttpPostTrigger">
+  <div class="form-group">
+    <label for="firstName">First name</label>
+    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter first name" required="required" />
+  </div>
+
+  <div class="form-group">
+    <label for="lastName">Last name</label>
+    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter last name" required="required" />
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required="required" />
+  </div>
+
+  <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+</form
           </div>
           
         </div>
